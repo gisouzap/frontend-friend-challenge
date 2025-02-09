@@ -1,18 +1,24 @@
-import nextJest from 'next/jest';
+const nextJest = require('next/jest');
 
-/** @type {import('jest').Config} */
 const createJestConfig = nextJest({
-  // Provide the path to your Next.js app to load next.config.js and .env files in your test environment
   dir: './',
 });
 
-// Add any custom config to be passed to Jest
-const config = {
-  coverageProvider: 'v8',
-  testEnvironment: 'jsdom',
-  // Add more setup options before each test is run
-  // setupFilesAfterEnv: ['<rootDir>/jest.setup.ts'],
+const customJestConfig = {
+  testEnvironment: 'jest-environment-jsdom',
+  setupFilesAfterEnv: ['<rootDir>/jest.setup.js'],
+  moduleNameMapper: {
+    '^.+\\.(css|scss|sass)$': 'identity-obj-proxy',
+    '^@/(.*)$': '<rootDir>/$1',
+    '^@/(.*)$': '<rootDir>/src/$1',
+  },
+  transform: {
+    '^.+\\.(js|jsx|ts|tsx)$': ['babel-jest', { presets: ['next/babel'] }],
+  },
+  collectCoverage: true,
+  collectCoverageFrom: ['src/**/*.{js,ts,jsx,tsx}', '!src/**/*.d.ts'],
+  coverageDirectory: 'coverage',
+  coverageReporters: ['html', 'text', 'lcov'],
 };
 
-// createJestConfig is exported this way to ensure that next/jest can load the Next.js config which is async
-export default createJestConfig(config);
+module.exports = createJestConfig(customJestConfig);
