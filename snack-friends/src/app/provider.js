@@ -2,7 +2,7 @@
 
 import { defaultSystem, ChakraProvider, Theme } from '@chakra-ui/react';
 
-export default function RootLayout(props) {
+export default function Provider(props) {
   return (
     <ChakraProvider value={defaultSystem}>
       <Theme appearance="dark" colorPalette="yellow">
