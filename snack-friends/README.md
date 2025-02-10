@@ -1,34 +1,88 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+### Front-end Friend Challenge - Snack Friends
 
-## Getting Started
+This project simulates a friendship system with real-time notifications, and I used WebSocket to handle this scenario. The project is built with Next.js, Node.js (version 20 or higher), and uses Docker to streamline the environment setup.
 
-First, run the development server:
+**Pré-requisitos**
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+```
+Node.js 20 or higher.
+
+Docker and Docker Compose installed.
+
+Browser (recommended: Chrome, Firefox).
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Instructions to run the project
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+**1. Clone the repository**
 
-## Learn More
+First, clone the repository to your local environment::
 
-To learn more about Next.js, take a look at the following resources:
+```
+git clone git@github.com:gisouzap/frontend-friend-challenge.git 
+cd snack-friends
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+**2. Build and start the Docker containers**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+The project uses Docker Compose to manage three services:
 
-## Deploy on Vercel
+```
+1. WebSocket Server: WebSocket server running on port 8080.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+2. App 1: Next.js application running on port 3000.
+ 
+3. App 2: Next.js application running on port 3001.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```
+
+To start the containers, run:
+
+`docker-compose up --build`
+
+This will:
+
+1. Build the Docker images.
+
+2. Start the WebSocket server and the two instances of the Next.js application.
+
+**3. Access the applications**
+
+Once the containers are running, open two incognito tabs in your browser:
+
+Access the first instance at: http://localhost:3000.
+
+Access the second instance at: http://localhost:3001.
+
+_Important: Use incognito tabs (or different browsers) to simulate two distinct users. This is required to test real-time notifications._
+
+**4. To test the features**
+
+Cadastro e Login: 
+- Pode criar um usuário novo e enviar solicitações de amizade, porém aqui não é possível visualizar as notificações
+- Usar usuários mock para visualizar as notificações
+
+Register and Login:
+- You can create a new user and send friend requests, but notifications will not be visible here.
+- Use mock users to view notifications.
+
+First instance 
+```
+email: ciri@thewitcher.com
+senha: 123456
+```
+
+
+Second instance: 
+
+```
+email: geralt@thewitcher.com
+senha: 123456
+```
+
+
+**Demo**
+
+![GIF 1](./public/gifs/desktopandmobilesnackfriends.gif)
+![GIF 2](./public/gifs/mobilesnackfriends.gif)
