@@ -2,7 +2,7 @@
 
 This project simulates a friendship system with real-time notifications, and I used WebSocket to handle this scenario. The project is built with Next.js, Node.js (version 20 or higher), and uses Docker to streamline the environment setup.
 
-**Pré-requisitos**
+**Prerequisites**
 
 ```
 Node.js 20 or higher.
@@ -58,10 +58,6 @@ Access the second instance at: http://localhost:3001.
 _Important: Use incognito tabs (or different browsers) to simulate two distinct users. This is required to test real-time notifications._
 
 **4. To test the features**
-
-Cadastro e Login: 
-- Pode criar um usuário novo e enviar solicitações de amizade, porém aqui não é possível visualizar as notificações
-- Usar usuários mock para visualizar as notificações
 
 Register and Login:
 - You can create a new user and send friend requests, but notifications will not be visible here.
