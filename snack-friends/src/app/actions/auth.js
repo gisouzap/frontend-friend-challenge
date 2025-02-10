@@ -67,6 +67,7 @@ export async function getAuthUser() {
       id: user.id,
       username: user.username,
       email: user.email,
+      picture: user.picture,
     };
   } catch (error) {
     return null;
