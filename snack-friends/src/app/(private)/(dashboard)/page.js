@@ -2,8 +2,8 @@
 
 import { useEffect, useState } from 'react';
 
-import * as authActions from '@/app/actions/auth';
-import * as friendsActions from '@/app/actions/friends';
+import { getAuthUser, logout } from '@/app/actions/auth';
+import { getFriends } from './friends';
 import { usersDB } from '@/app/lib/mockDB';
 
 import { Avatar, Box, Grid, Heading, Separator } from '@chakra-ui/react';
@@ -48,7 +48,8 @@ export default function Dashboard() {
           setUser(parsedUser);
           setUsers(prev => [...prev, parsedUser]);
         } else {
-          const authUser = await authActions.getAuthUser();
+          const authUser = await getAuthUser();
+
           if (authUser) {
             setUser(authUser);
           }
@@ -64,10 +65,7 @@ export default function Dashboard() {
   useEffect(() => {
     const fetchFriends = async () => {
       try {
-        const { availableUsers } = await friendsActions.getFriends(
-          users,
-          user.id
-        );
+        const { availableUsers } = getFriends(users, user.id);
         setAvailableUsers(availableUsers);
       } catch (error) {
         showToaster('Erro ao buscar amigos.', 'error');
@@ -132,7 +130,7 @@ export default function Dashboard() {
 
   const handleLogout = () => {
     localStorage.removeItem('user');
-    authActions.logout();
+    logout();
   };
 
   if (!user) {

@@ -23,7 +23,11 @@ const Header = ({ onLogout }) => {
         </Heading>
       </HStack>
 
-      <IconButton aria-label="Logout" onClick={onLogout}>
+      <IconButton
+        aria-label="Logout"
+        data-testid="logout-button"
+        onClick={onLogout}
+      >
         <MdLogout />
       </IconButton>
     </HStack>

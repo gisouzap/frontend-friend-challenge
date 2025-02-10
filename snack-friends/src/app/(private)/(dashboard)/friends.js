@@ -1,6 +1,4 @@
-'use server';
-
-export async function getFriends(users, userId) {
+export const getFriends = (users, userId) => {
   const user = users.find(user => user.id === userId);
   if (!user) return { friends: [], pendingFriends: [], availableUsers: users };
 
@@ -9,4 +7,4 @@ export async function getFriends(users, userId) {
     .map(u => ({ ...u, status: 'none', picture: u.picture }));
 
   return { availableUsers };
-}
+};

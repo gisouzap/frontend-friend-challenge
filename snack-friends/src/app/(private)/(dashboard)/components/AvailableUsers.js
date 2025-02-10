@@ -41,6 +41,7 @@ const AvailableUsers = ({ users, onSendRequest }) => {
               size={'sm'}
               onClick={() => onSendRequest(u.id)}
               colorPalette="gray"
+              data-testid="add-button"
             >
               <RiUserAddLine />
             </IconButton>
