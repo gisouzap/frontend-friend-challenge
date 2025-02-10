@@ -1,0 +1,664 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dashboard should send a friend request 1`] = `
+<div>
+  <div
+    class="css-lpscqp"
+  >
+    <div
+      class="chakra-stack css-hoixsk"
+    >
+      <div
+        class="chakra-stack css-1er2t22"
+      >
+        <img
+          alt="logo snack"
+          data-nimg="1"
+          decoding="async"
+          height="100"
+          loading="lazy"
+          src="/_next/image?url=%2Fimg.jpg&w=256&q=75"
+          srcset="/_next/image?url=%2Fimg.jpg&w=128&q=75 1x, /_next/image?url=%2Fimg.jpg&w=256&q=75 2x"
+          style="color: transparent;"
+          width="100"
+        />
+        <h2
+          class="chakra-heading css-jnmses"
+        >
+          Friends
+        </h2>
+      </div>
+      <button
+        aria-label="Logout"
+        class="chakra-button css-yks3f0"
+        data-testid="logout-button"
+        type="button"
+      >
+        <svg
+          fill="currentColor"
+          height="1em"
+          stroke="currentColor"
+          stroke-width="0"
+          viewBox="0 0 24 24"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M0 0h24v24H0z"
+            fill="none"
+          />
+          <path
+            d="m17 7-1.41 1.41L18.17 11H8v2h10.17l-2.58 2.58L17 17l5-5zM4 5h8V3H4c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h8v-2H4V5z"
+          />
+        </svg>
+      </button>
+    </div>
+    <div
+      class="css-1r1grkd"
+    >
+      <div
+        class="css-1iu3mhs"
+      >
+        <div
+          class="chakra-stack css-wl8fn5"
+        >
+          <h2
+            class="chakra-heading css-eprwor"
+          >
+            Test User!
+          </h2>
+          <span
+            aria-orientation="horizontal"
+            class="chakra-separator css-14dfy1g"
+            role="separator"
+          />
+          <div
+            class="chakra-avatar__root css-pckxl"
+            data-part="root"
+            data-scope="avatar"
+            dir="ltr"
+            id="avatar::r9:"
+          >
+            <span
+              class="chakra-avatar__fallback css-1cuxwyn"
+              data-part="fallback"
+              data-scope="avatar"
+              data-state="visible"
+              dir="ltr"
+              id="avatar::r9::fallback"
+            >
+              TU
+            </span>
+            <img
+              class="chakra-avatar__image css-1odw0y2"
+              data-part="image"
+              data-scope="avatar"
+              data-state="hidden"
+              dir="ltr"
+              draggable="false"
+              hidden=""
+              id="avatar::r9::image"
+              referrerpolicy="no-referrer"
+              src="test.jpg"
+            />
+          </div>
+          <h2
+            class="chakra-heading css-eprwor"
+          >
+            Amigos Adicionados
+          </h2>
+          <p
+            class="css-l0zmib"
+          >
+            Nenhum usuário encontrado.
+          </p>
+        </div>
+      </div>
+      <div
+        class="css-1iu3mhs"
+      >
+        <div
+          class="chakra-stack css-wl8fn5"
+        >
+          <h2
+            class="chakra-heading css-eprwor"
+          >
+            Descubra novos amigos
+          </h2>
+          <span
+            aria-orientation="horizontal"
+            class="chakra-separator css-14dfy1g"
+            role="separator"
+          />
+          <div
+            class="css-14u1dh6"
+          >
+            <div
+              class="chakra-stack css-1y3f6ad"
+              spacing="4"
+            >
+              <div
+                class="chakra-avatar__root css-1lyb3ep"
+                data-part="root"
+                data-scope="avatar"
+                dir="ltr"
+                id="avatar::rb:"
+              >
+                <span
+                  class="chakra-avatar__fallback css-1cuxwyn"
+                  data-part="fallback"
+                  data-scope="avatar"
+                  data-state="visible"
+                  dir="ltr"
+                  id="avatar::rb::fallback"
+                >
+                  C
+                </span>
+                <img
+                  class="chakra-avatar__image css-1odw0y2"
+                  data-part="image"
+                  data-scope="avatar"
+                  data-state="hidden"
+                  dir="ltr"
+                  draggable="false"
+                  hidden=""
+                  id="avatar::rb::image"
+                  referrerpolicy="no-referrer"
+                  src="https://bit.ly/42Jpdpx"
+                />
+              </div>
+              <p
+                class="css-h5fcia"
+              >
+                Ciri
+              </p>
+              <button
+                class="chakra-button css-yxkht7"
+                data-testid="add-button"
+                type="button"
+              >
+                <svg
+                  fill="currentColor"
+                  height="1em"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 24 24"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M14 14.252V16.3414C13.3744 16.1203 12.7013 16 12 16C8.68629 16 6 18.6863 6 22H4C4 17.5817 7.58172 14 12 14C12.6906 14 13.3608 14.0875 14 14.252ZM12 13C8.685 13 6 10.315 6 7C6 3.685 8.685 1 12 1C15.315 1 18 3.685 18 7C18 10.315 15.315 13 12 13ZM12 11C14.21 11 16 9.21 16 7C16 4.79 14.21 3 12 3C9.79 3 8 4.79 8 7C8 9.21 9.79 11 12 11ZM18 17V14H20V17H23V19H20V22H18V19H15V17H18Z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div
+            class="css-14u1dh6"
+          >
+            <div
+              class="chakra-stack css-1y3f6ad"
+              spacing="4"
+            >
+              <div
+                class="chakra-avatar__root css-1lyb3ep"
+                data-part="root"
+                data-scope="avatar"
+                dir="ltr"
+                id="avatar::rc:"
+              >
+                <span
+                  class="chakra-avatar__fallback css-1cuxwyn"
+                  data-part="fallback"
+                  data-scope="avatar"
+                  data-state="visible"
+                  dir="ltr"
+                  id="avatar::rc::fallback"
+                >
+                  RG
+                </span>
+                <img
+                  class="chakra-avatar__image css-1odw0y2"
+                  data-part="image"
+                  data-scope="avatar"
+                  data-state="hidden"
+                  dir="ltr"
+                  draggable="false"
+                  hidden=""
+                  id="avatar::rc::image"
+                  referrerpolicy="no-referrer"
+                  src="https://bit.ly/4aWluai"
+                />
+              </div>
+              <p
+                class="css-h5fcia"
+              >
+                Rick Grimes
+              </p>
+              <button
+                class="chakra-button css-yxkht7"
+                data-testid="add-button"
+                type="button"
+              >
+                <svg
+                  fill="currentColor"
+                  height="1em"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 24 24"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M14 14.252V16.3414C13.3744 16.1203 12.7013 16 12 16C8.68629 16 6 18.6863 6 22H4C4 17.5817 7.58172 14 12 14C12.6906 14 13.3608 14.0875 14 14.252ZM12 13C8.685 13 6 10.315 6 7C6 3.685 8.685 1 12 1C15.315 1 18 3.685 18 7C18 10.315 15.315 13 12 13ZM12 11C14.21 11 16 9.21 16 7C16 4.79 14.21 3 12 3C9.79 3 8 4.79 8 7C8 9.21 9.79 11 12 11ZM18 17V14H20V17H23V19H20V22H18V19H15V17H18Z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div
+            class="css-14u1dh6"
+          >
+            <div
+              class="chakra-stack css-1y3f6ad"
+              spacing="4"
+            >
+              <div
+                class="chakra-avatar__root css-1lyb3ep"
+                data-part="root"
+                data-scope="avatar"
+                dir="ltr"
+                id="avatar::rd:"
+              >
+                <span
+                  class="chakra-avatar__fallback css-1cuxwyn"
+                  data-part="fallback"
+                  data-scope="avatar"
+                  data-state="visible"
+                  dir="ltr"
+                  id="avatar::rd::fallback"
+                >
+                  DD
+                </span>
+                <img
+                  class="chakra-avatar__image css-1odw0y2"
+                  data-part="image"
+                  data-scope="avatar"
+                  data-state="hidden"
+                  dir="ltr"
+                  draggable="false"
+                  hidden=""
+                  id="avatar::rd::image"
+                  referrerpolicy="no-referrer"
+                  src="https://bit.ly/3CRtfS0"
+                />
+              </div>
+              <p
+                class="css-h5fcia"
+              >
+                Daryl Dixon
+              </p>
+              <button
+                class="chakra-button css-yxkht7"
+                data-testid="add-button"
+                type="button"
+              >
+                <svg
+                  fill="currentColor"
+                  height="1em"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 24 24"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M14 14.252V16.3414C13.3744 16.1203 12.7013 16 12 16C8.68629 16 6 18.6863 6 22H4C4 17.5817 7.58172 14 12 14C12.6906 14 13.3608 14.0875 14 14.252ZM12 13C8.685 13 6 10.315 6 7C6 3.685 8.685 1 12 1C15.315 1 18 3.685 18 7C18 10.315 15.315 13 12 13ZM12 11C14.21 11 16 9.21 16 7C16 4.79 14.21 3 12 3C9.79 3 8 4.79 8 7C8 9.21 9.79 11 12 11ZM18 17V14H20V17H23V19H20V22H18V19H15V17H18Z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div
+            class="css-14u1dh6"
+          >
+            <div
+              class="chakra-stack css-1y3f6ad"
+              spacing="4"
+            >
+              <div
+                class="chakra-avatar__root css-1lyb3ep"
+                data-part="root"
+                data-scope="avatar"
+                dir="ltr"
+                id="avatar::re:"
+              >
+                <span
+                  class="chakra-avatar__fallback css-1cuxwyn"
+                  data-part="fallback"
+                  data-scope="avatar"
+                  data-state="visible"
+                  dir="ltr"
+                  id="avatar::re::fallback"
+                >
+                  A
+                </span>
+                <img
+                  class="chakra-avatar__image css-1odw0y2"
+                  data-part="image"
+                  data-scope="avatar"
+                  data-state="hidden"
+                  dir="ltr"
+                  draggable="false"
+                  hidden=""
+                  id="avatar::re::image"
+                  referrerpolicy="no-referrer"
+                  src="https://bit.ly/4hS9UiH"
+                />
+              </div>
+              <p
+                class="css-h5fcia"
+              >
+                Aloy
+              </p>
+              <button
+                class="chakra-button css-yxkht7"
+                data-testid="add-button"
+                type="button"
+              >
+                <svg
+                  fill="currentColor"
+                  height="1em"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 24 24"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M14 14.252V16.3414C13.3744 16.1203 12.7013 16 12 16C8.68629 16 6 18.6863 6 22H4C4 17.5817 7.58172 14 12 14C12.6906 14 13.3608 14.0875 14 14.252ZM12 13C8.685 13 6 10.315 6 7C6 3.685 8.685 1 12 1C15.315 1 18 3.685 18 7C18 10.315 15.315 13 12 13ZM12 11C14.21 11 16 9.21 16 7C16 4.79 14.21 3 12 3C9.79 3 8 4.79 8 7C8 9.21 9.79 11 12 11ZM18 17V14H20V17H23V19H20V22H18V19H15V17H18Z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div
+            class="css-14u1dh6"
+          >
+            <div
+              class="chakra-stack css-1y3f6ad"
+              spacing="4"
+            >
+              <div
+                class="chakra-avatar__root css-1lyb3ep"
+                data-part="root"
+                data-scope="avatar"
+                dir="ltr"
+                id="avatar::rf:"
+              >
+                <span
+                  class="chakra-avatar__fallback css-1cuxwyn"
+                  data-part="fallback"
+                  data-scope="avatar"
+                  data-state="visible"
+                  dir="ltr"
+                  id="avatar::rf::fallback"
+                >
+                  EW
+                </span>
+                <img
+                  class="chakra-avatar__image css-1odw0y2"
+                  data-part="image"
+                  data-scope="avatar"
+                  data-state="hidden"
+                  dir="ltr"
+                  draggable="false"
+                  hidden=""
+                  id="avatar::rf::image"
+                  referrerpolicy="no-referrer"
+                  src="https://bit.ly/4hsAgYx"
+                />
+              </div>
+              <p
+                class="css-h5fcia"
+              >
+                Ellie Williams
+              </p>
+              <button
+                class="chakra-button css-yxkht7"
+                data-testid="add-button"
+                type="button"
+              >
+                <svg
+                  fill="currentColor"
+                  height="1em"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 24 24"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M14 14.252V16.3414C13.3744 16.1203 12.7013 16 12 16C8.68629 16 6 18.6863 6 22H4C4 17.5817 7.58172 14 12 14C12.6906 14 13.3608 14.0875 14 14.252ZM12 13C8.685 13 6 10.315 6 7C6 3.685 8.685 1 12 1C15.315 1 18 3.685 18 7C18 10.315 15.315 13 12 13ZM12 11C14.21 11 16 9.21 16 7C16 4.79 14.21 3 12 3C9.79 3 8 4.79 8 7C8 9.21 9.79 11 12 11ZM18 17V14H20V17H23V19H20V22H18V19H15V17H18Z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div
+            class="css-14u1dh6"
+          >
+            <div
+              class="chakra-stack css-1y3f6ad"
+              spacing="4"
+            >
+              <div
+                class="chakra-avatar__root css-1lyb3ep"
+                data-part="root"
+                data-scope="avatar"
+                dir="ltr"
+                id="avatar::rg:"
+              >
+                <span
+                  class="chakra-avatar__fallback css-1cuxwyn"
+                  data-part="fallback"
+                  data-scope="avatar"
+                  data-state="visible"
+                  dir="ltr"
+                  id="avatar::rg::fallback"
+                >
+                  JM
+                </span>
+                <img
+                  class="chakra-avatar__image css-1odw0y2"
+                  data-part="image"
+                  data-scope="avatar"
+                  data-state="hidden"
+                  dir="ltr"
+                  draggable="false"
+                  hidden=""
+                  id="avatar::rg::image"
+                  referrerpolicy="no-referrer"
+                  src="https://bit.ly/40TvMDq"
+                />
+              </div>
+              <p
+                class="css-h5fcia"
+              >
+                Joel Miller
+              </p>
+              <button
+                class="chakra-button css-yxkht7"
+                data-testid="add-button"
+                type="button"
+              >
+                <svg
+                  fill="currentColor"
+                  height="1em"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 24 24"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M14 14.252V16.3414C13.3744 16.1203 12.7013 16 12 16C8.68629 16 6 18.6863 6 22H4C4 17.5817 7.58172 14 12 14C12.6906 14 13.3608 14.0875 14 14.252ZM12 13C8.685 13 6 10.315 6 7C6 3.685 8.685 1 12 1C15.315 1 18 3.685 18 7C18 10.315 15.315 13 12 13ZM12 11C14.21 11 16 9.21 16 7C16 4.79 14.21 3 12 3C9.79 3 8 4.79 8 7C8 9.21 9.79 11 12 11ZM18 17V14H20V17H23V19H20V22H18V19H15V17H18Z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div
+            class="css-14u1dh6"
+          >
+            <div
+              class="chakra-stack css-1y3f6ad"
+              spacing="4"
+            >
+              <div
+                class="chakra-avatar__root css-1lyb3ep"
+                data-part="root"
+                data-scope="avatar"
+                dir="ltr"
+                id="avatar::rh:"
+              >
+                <span
+                  class="chakra-avatar__fallback css-1cuxwyn"
+                  data-part="fallback"
+                  data-scope="avatar"
+                  data-state="visible"
+                  dir="ltr"
+                  id="avatar::rh::fallback"
+                >
+                  GS
+                </span>
+                <img
+                  class="chakra-avatar__image css-1odw0y2"
+                  data-part="image"
+                  data-scope="avatar"
+                  data-state="hidden"
+                  dir="ltr"
+                  draggable="false"
+                  hidden=""
+                  id="avatar::rh::image"
+                  referrerpolicy="no-referrer"
+                />
+              </div>
+              <p
+                class="css-h5fcia"
+              >
+                Gi Souza
+              </p>
+              <button
+                class="chakra-button css-yxkht7"
+                data-testid="add-button"
+                type="button"
+              >
+                <svg
+                  fill="currentColor"
+                  height="1em"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 24 24"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M14 14.252V16.3414C13.3744 16.1203 12.7013 16 12 16C8.68629 16 6 18.6863 6 22H4C4 17.5817 7.58172 14 12 14C12.6906 14 13.3608 14.0875 14 14.252ZM12 13C8.685 13 6 10.315 6 7C6 3.685 8.685 1 12 1C15.315 1 18 3.685 18 7C18 10.315 15.315 13 12 13ZM12 11C14.21 11 16 9.21 16 7C16 4.79 14.21 3 12 3C9.79 3 8 4.79 8 7C8 9.21 9.79 11 12 11ZM18 17V14H20V17H23V19H20V22H18V19H15V17H18Z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="css-1iu3mhs"
+      >
+        <div
+          class="chakra-stack css-wl8fn5"
+        >
+          <h2
+            class="chakra-heading css-eprwor"
+          >
+            Convites Recebidos
+          </h2>
+          <span
+            aria-orientation="horizontal"
+            class="chakra-separator css-14dfy1g"
+            role="separator"
+          />
+          <p
+            class="css-l0zmib"
+          >
+            Nenhuma solicitação recebida.
+          </p>
+          <span
+            aria-orientation="horizontal"
+            class="chakra-separator css-14dfy1g"
+            role="separator"
+          />
+          <h2
+            class="chakra-heading css-eprwor"
+          >
+            Solicitações enviadas
+          </h2>
+          <span
+            aria-orientation="horizontal"
+            class="chakra-separator css-14dfy1g"
+            role="separator"
+          />
+          <div
+            class="css-14u1dh6"
+          >
+            <div
+              class="chakra-stack css-tl3ftk"
+            >
+              <p
+                class="css-0"
+              >
+                Yennefer
+              </p>
+              <div
+                class="chakra-avatar__root css-1lyb3ep"
+                data-part="root"
+                data-scope="avatar"
+                dir="ltr"
+                id="avatar::ri:"
+              >
+                <span
+                  class="chakra-avatar__fallback css-1cuxwyn"
+                  data-part="fallback"
+                  data-scope="avatar"
+                  data-state="visible"
+                  dir="ltr"
+                  id="avatar::ri::fallback"
+                >
+                  Y
+                </span>
+                <img
+                  class="chakra-avatar__image css-1odw0y2"
+                  data-part="image"
+                  data-scope="avatar"
+                  data-state="hidden"
+                  dir="ltr"
+                  draggable="false"
+                  hidden=""
+                  id="avatar::ri::image"
+                  referrerpolicy="no-referrer"
+                  src="https://bit.ly/4hoS32S"
+                />
+              </div>
+              <p
+                class="css-l0zmib"
+              >
+                 (Aguardando)
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
