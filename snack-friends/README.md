@@ -84,5 +84,5 @@ senha: 123456
 
 **Demo**
 
-![GIF 1](./src/public/gifs/desktopandmobilesnackfriends.gif)
-![GIF 2](./src/public/gifs/mobilesnackfriends.gif)
+![GIF 1](./public/desktopandmobilesnackfriends.gif)
+![GIF 2](./public/mobilesnackfriends.gif)
