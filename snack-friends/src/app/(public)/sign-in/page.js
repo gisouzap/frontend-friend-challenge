@@ -72,7 +72,7 @@ export default function SignIn() {
         justifyContent="center"
         width="100%"
       >
-        <Image src={logoImg} alt="logo snack" width={100} height={100} />
+        <Image src={logoImg} alt="logo snack" width={100} />
         <Heading
           color="yellow.100"
           fontSize={{ base: '1xl', md: '1xl', lg: '2xl' }}

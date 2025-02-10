@@ -2,10 +2,6 @@ import users from './users';
 
 const usersInfo = users;
 
-export const addUser = user => {
-  usersInfo.push(user);
-};
-
 export const findUserByEmail = email => {
   return usersInfo.find(user => user.email === email);
 };

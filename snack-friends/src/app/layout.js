@@ -1,5 +1,5 @@
 import { Box } from '@chakra-ui/react';
-import Provider from '../provider';
+import Provider from './provider';
 import { Roboto } from 'next/font/google';
 
 export const metadata = {
@@ -13,7 +13,7 @@ const roboto = Roboto({
   variable: '--font-roboto',
 });
 
-export default function PublicLayout({ children }) {
+export default function PrivateLayout({ children }) {
   return (
     <html className={roboto.className} suppressHydrationWarning>
       <body>

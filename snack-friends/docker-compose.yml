@@ -1,0 +1,32 @@
+version: '3'
+
+services:
+  websocket:
+    build: .
+    container_name: websocket_server
+    ports:
+      - "8080:8080"
+    command: ["node", "server.js"]
+    depends_on:
+      - app1
+      - app2
+
+  app1:
+    build: .
+    container_name: next_app_1
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+      - PORT=3000
+    command: ["npm", "start"]
+
+  app2:
+    build: .
+    container_name: next_app_2
+    ports:
+      - "3001:3001"
+    environment:
+      - NODE_ENV=production
+      - PORT=3001
+    command: ["npm", "run", "start:3001"]

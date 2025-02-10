@@ -17,7 +17,8 @@ wss.on('connection', ws => {
     if (
       data.type === 'sendFriendRequest' ||
       data.type === 'newFriendAccepted' ||
-      data.type === 'friendRemoved'
+      data.type === 'friendRemoved' ||
+      data.type === 'friendDeclined'
     ) {
       const receiverConnections = users.get(data.receiverId);
       if (receiverConnections) {
